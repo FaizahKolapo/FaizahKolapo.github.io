@@ -1,0 +1,1012 @@
+* {
+  background-color: #111111;
+}
+
+.logo {
+  width: 90px;
+  height: 80px;
+  padding: 0 10px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111111;
+}
+
+.firstLi {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.downloadCv {
+  background-color: #4218d9;
+  border-radius: 18px;
+}
+
+.intro {
+  width: 35%;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+.infoPara {
+  color: white;
+  opacity: 0.8;
+}
+
+.introColor {
+  color: white;
+}
+
+.pinkToBlue {
+  background: linear-gradient(to right, #9845e8, #33d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blueToPurple {
+  background: linear-gradient(to right, #33d2ff, #9845e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.it {
+  color: white;
+}
+
+.works {
+  background-color: #4218d9;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 18px;
+  border-color: #4218d9;
+  margin-left: 2%;
+}
+
+.services {
+  color: white;
+  padding: 12px 28px;
+  border-radius: 18px;
+  border-color: white;
+  margin-left: 1%;
+}
+
+.temidayo {
+  position: relative;
+  left: 850px;
+  bottom: 370px;
+}
+
+.myPic {
+  width: 350px;
+  height: 480px;
+  border-radius: 0 50px;
+  background-color: #343434;
+}
+
+.rectangle1 {
+  background-color: #9845e8;
+  width: 135px;
+  height: 36px;
+  position: relative;
+  bottom: 700px;
+  left: 790px;
+  border-radius: 18px;
+}
+
+.rectangle2 {
+  background-color: #33d2ff;
+  width: 135px;
+  height: 36px;
+  position: relative;
+  bottom: 855px;
+  left: 770px;
+  border-radius: 18px;
+}
+
+.rectangle3 {
+  background-color: #dd5789;
+  width: 135px;
+  height: 36px;
+  position: relative;
+  bottom: 945px;
+  left: 950px;
+  border-radius: 18px;
+}
+
+.rectangle4 {
+  background-color: hsl(100, 60%, 65%);
+  width: 135px;
+  height: 36px;
+  position: relative;
+  bottom: 930px;
+  left: 1100px;
+  border-radius: 18px;
+}
+
+.rectangle5 {
+  background-color: #4218d9;
+  width: 135px;
+  height: 36px;
+  position: relative;
+  bottom: 830px;
+  left: 1100px;
+  border-radius: 18px;
+}
+
+.latestProjects {
+  width: 95%;
+  height: 500px;
+  background: linear-gradient(to right, #9845e8, #dd5789);
+  position: relative;
+  left: 20px;
+  bottom: 500px;
+  border-radius: 0 50px;
+}
+
+.latestProjectsh2 {
+  color: white;
+  position: relative;
+  bottom: -50px;
+  left: 50px;
+  background: none;
+  width: 10px;
+}
+
+.bulbSticker {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 156px;
+  bottom: 65px;
+  background: none;
+}
+
+.rotatedProj {
+  transform: rotate(325deg);
+  background: none;
+  color: white;
+  position: relative;
+  bottom: 505px;
+  left: -90px;
+}
+
+.div1 {
+  width: 350px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  left: 45px;
+  bottom: 30px;
+  border-radius: 0 50px;
+  border-color: white;
+}
+
+.div2 {
+  width: 350px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  left: 425px;
+  bottom: 380px;
+  border-radius: 0 50px;
+  border-color: white;
+}
+
+.div3 {
+  width: 350px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  left: 806px;
+  bottom: 730px;
+  border-radius: 0 50px;
+  border-color: white;
+}
+
+.recipeHatTitle {
+  background: none;
+  color: white;
+  opacity: 0.8;
+}
+
+.minRead1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  left: 320px;
+  bottom: 90px;
+}
+
+.minRead2 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  left: 274px;
+  bottom: 15px;
+}
+
+.minRead3 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  left: 274px;
+  bottom: 15px;
+}
+
+.case1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #32b67a;
+  border-radius: 7px;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+.figma1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #32b67a;
+  border-radius: 7px;
+  padding: 6px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.mobile1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #32b67a;
+  border-radius: 7px;
+  padding: 6px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.case2 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #3953e5;
+  border-radius: 7px;
+  padding: 3px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+}
+
+.figma2 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #3953e5;
+  border-radius: 7px;
+  padding: 6px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.mobile2 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #3953e5;
+  border-radius: 7px;
+  padding: 6px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.case3 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #08356d;
+  border-radius: 7px;
+  padding: 3px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+}
+
+.figma3 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #08356d;
+  border-radius: 7px;
+  padding: 6px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.mobile3 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  background-color: #08356d;
+  border-radius: 7px;
+  padding: 6px 10px;
+  border-color: #32b67a;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.line1 {
+  height: 1px;
+  width: 280px;
+  background-color: white;
+  opacity: 0.8;
+  position: relative;
+  bottom: -5px;
+}
+
+.p1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  width: 250px;
+  text-align: left;
+}
+
+.div1Content {
+  background: none;
+  position: relative;
+  left: 20px;
+  bottom: -10px;
+}
+
+.buttonsBox1 {
+  background: none;
+  position: relative;
+  bottom: 8px;
+  padding-bottom: 3px;
+}
+
+.skillsH {
+  color: white;
+  width: 120px;
+}
+
+.skillsP {
+  color: white;
+  width: 300px;
+  position: relative;
+  left: 40px;
+  bottom: 99px;
+  opacity: 0.8;
+}
+
+.line2 {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  position: relative;
+  bottom: 76px;
+}
+
+.inFrontOfLaptop {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 157px;
+  bottom: 92px;
+  background: none;
+}
+
+.skillsnexperiences {
+  position: relative;
+  bottom: 410px;
+  left: 120px;
+}
+
+.experience {
+  transform: rotate(325deg);
+  background: none;
+  color: white;
+  position: relative;
+  bottom: 330px;
+  left: -140px;
+}
+
+.userExpCircle {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 3px;
+}
+
+.userResCircle {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 170px;
+  bottom: 123px;
+}
+
+.prodStratCircle {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 340px;
+  bottom: 230px;
+}
+
+.visualDesCircle {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 3px;
+  bottom: 205px;
+}
+
+.designsystCircle {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 170px;
+  bottom: 312px;
+}
+
+.figmaCircle {
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 341px;
+  bottom: 419px;
+}
+
+.skillsh2 {
+  color: white;
+}
+
+.skills {
+  position: relative;
+  bottom: 85px;
+}
+
+.expP {
+  color: white;
+  width: 150px;
+  text-align: center;
+  position: relative;
+  left: -45px;
+}
+.resP {
+  color: white;
+  position: relative;
+  left: 150px;
+  bottom: 126px;
+}
+.prodP {
+  color: white;
+  position: relative;
+  left: 315px;
+  bottom: 234px;
+}
+.visP {
+  color: white;
+  position: relative;
+  left: -25px;
+  bottom: 215px;
+}
+.desP {
+  color: white;
+  position: relative;
+  left: 150px;
+  bottom: 322px;
+}
+.figP {
+  color: white;
+  position: relative;
+  left: 346px;
+  bottom: 428px;
+}
+
+.presExpUl {
+  width: 400px;
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  bottom: 125px;
+}
+
+.liPrec {
+  padding-bottom: 20px;
+}
+
+.greenCity {
+  color: #32b67a;
+  position: relative;
+  bottom: 80px;
+}
+
+.precisionAI {
+  text-decoration: none;
+  color: white;
+  background-color: #32b67a;
+  padding: 5px 35px;
+  border-radius: 0px 5px;
+}
+
+.homeboardP {
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  left: 180px;
+  bottom: 34px;
+}
+
+.kunyeP {
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  left: 320px;
+  bottom: 68px;
+}
+
+.hybrid {
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  bottom: 60px;
+}
+
+.date {
+  color: white;
+  opacity: 0.8;
+  position: relative;
+  left: 400px;
+  bottom: 145px;
+}
+
+.expHeading {
+  color: white;
+  opacity: 0.8;
+  position: relative;
+}
+
+.downloadIt {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background-color: #4218d9;
+  border-radius: 12px;
+  padding: 13px 16px;
+  left: 310px;
+  bottom: 80px;
+}
+
+.experienceSection {
+  position: relative;
+  left: 670px;
+  bottom: 1450px;
+}
+
+.servicesIoffer {
+  width: 97%;
+  height: 500px;
+  background: linear-gradient(to right, #9845e8, #dd5789);
+  position: relative;
+  left: 20px;
+  bottom: 1400px;
+  border-radius: 0 50px;
+  padding-top: 130px;
+}
+
+.servicesIofferh2 {
+  color: white;
+  position: relative;
+  bottom: -50px;
+  left: 50px;
+  background: none;
+  width: 100px;
+}
+
+.bulbSticker {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 156px;
+  bottom: 65px;
+  background: none;
+}
+
+.rotatedServ {
+  transform: rotate(325deg);
+  background: none;
+  color: white;
+  position: relative;
+  bottom: 515px;
+  left: -90px;
+}
+
+.seconddiv1 {
+  width: 350px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  left: 55px;
+  bottom: 220px;
+  border-radius: 0 50px;
+  border-color: white;
+}
+
+.seconddiv2 {
+  width: 350px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  left: 440px;
+  bottom: 560px;
+  border-radius: 0 50px;
+  border-color: white;
+}
+
+.seconddiv3 {
+  width: 350px;
+  height: 240px;
+  background-color: black;
+  position: relative;
+  left: 825px;
+  bottom: 910px;
+  border-radius: 0 50px;
+  border-color: white;
+}
+
+.secondline1 {
+  height: 1px;
+  width: 280px;
+  background-color: white;
+  opacity: 0.8;
+  position: relative;
+  bottom: -30px;
+}
+
+.secondp1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  width: 250px;
+  text-align: left;
+  position: relative;
+  bottom: -30px;
+}
+
+.div1Content {
+  background: none;
+  position: relative;
+  left: 20px;
+  bottom: -10px;
+}
+
+.web {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: -16px;
+}
+
+.mobileUX {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: -16px;
+}
+
+.dashboard {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: -16px;
+}
+
+.textNearIcon {
+  background: none;
+  color: white;
+  position: relative;
+  left: 10px;
+  bottom: -7px;
+}
+
+.servPortion {
+  background: none;
+  position: relative;
+  bottom: 140px;
+  left: 10px;
+}
+
+.viewAll {
+  text-decoration: none;
+  background-color: #4218d9;
+  border-radius: 12px;
+  padding: 13px 16px;
+  color: white;
+  position: relative;
+  left: 1070px;
+  bottom: 710px;
+}
+
+.line3 {
+  width: 30px;
+  height: 2px;
+  background: white;
+  position: relative;
+  bottom: 390px;
+  left: 60px;
+}
+
+.servP3 {
+  background: none;
+  color: white;
+  width: 270px;
+  position: relative;
+  bottom: 255px;
+  opacity: 0.8;
+  left: 100px;
+}
+
+.kindWords {
+  width: 97%;
+  height: 500px;
+  background: #111111;
+  position: relative;
+  left: 20px;
+  bottom: 1350px;
+  border-radius: 0 50px;
+  padding-top: 130px;
+}
+
+.kindWordsh2 {
+  color: white;
+  position: relative;
+  bottom: -50px;
+  left: 50px;
+  background: none;
+  width: 200px;
+}
+
+.hugSticker {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 210px;
+  bottom: 65px;
+  background: none;
+}
+
+.rotatedServ {
+  transform: rotate(325deg);
+  background: none;
+  color: white;
+  position: relative;
+  bottom: 515px;
+  left: -90px;
+}
+
+.thirddiv1 {
+  width: 350px;
+  height: 240px;
+  background-color: #111111;
+  position: relative;
+  left: 440px;
+  bottom: 140px;
+  border-radius: 0 50px;
+  border-color: white;
+  border: 1px solid white;
+}
+
+.thirddiv2 {
+  width: 350px;
+  height: 240px;
+  background-color: #111111;
+  position: relative;
+  left: 440px;
+  bottom: 670px;
+  border-radius: 0 50px;
+  border-color: white;
+  border: 1px solid white;
+}
+
+.thirddiv3 {
+  width: 350px;
+  height: 240px;
+  background-color: #111111;
+  position: relative;
+  left: 855px;
+  bottom: 910px;
+  border-radius: 0 50px;
+  border-color: white;
+  border: 1px solid white;
+}
+
+.thirddiv4 {
+  width: 350px;
+  height: 240px;
+  background-color: #111111;
+  position: relative;
+  left: 1px;
+  bottom: -55px;
+  border-radius: 0 50px;
+  border-color: white;
+  border: 1px solid white;
+}
+
+.thirdline1 {
+  height: 1px;
+  width: 312px;
+  background-color: white;
+  opacity: 0.8;
+  position: relative;
+  bottom: 30px;
+}
+
+.thirdp1 {
+  background: none;
+  color: white;
+  opacity: 0.8;
+  width: 250px;
+  text-align: left;
+  position: relative;
+  bottom: 50px;
+}
+
+.div1Content {
+  background: none;
+  position: relative;
+  left: 20px;
+  bottom: -10px;
+}
+
+.web {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: -16px;
+}
+
+.mobileUX {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: -16px;
+}
+
+.dashboard {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: -16px;
+}
+
+.thirdtextNearIcon {
+  background: none;
+  color: white;
+  position: relative;
+  left: 10px;
+  bottom: 1px;
+}
+
+.wordsPortion {
+  background: none;
+  position: relative;
+  bottom: 140px;
+  left: 10px;
+}
+
+.line3 {
+  width: 30px;
+  height: 2px;
+  background: white;
+  position: relative;
+  bottom: 390px;
+  left: 60px;
+}
+
+.servP3 {
+  background: none;
+  color: white;
+  width: 270px;
+  position: relative;
+  bottom: 255px;
+  opacity: 0.8;
+  left: 100px;
+}
+
+.testimonials {
+  position: relative;
+  background: none;
+  bottom: -165px;
+}
+
+.personsTitle {
+  color: white;
+  background: none;
+  position: relative;
+  bottom: -11px;
+  left: -80px;
+  font-size: 10px;
+}
+
+.nameAndTitle {
+  background: none;
+  position: relative;
+  left: 170px;
+}
+
+.thirdViewAll {
+  text-decoration: none;
+  background-color: #4218d9;
+  border-radius: 12px;
+  padding: 13px 16px;
+  color: white;
+  position: relative;
+  left: -805px;
+  bottom: 20px;
+}
+
+.feelFree {
+  width: 1400px;
+  height: 500px;
+  background: linear-gradient(to right, #9845e8, #dd5789);
+  position: relative;
+  left: -1000px;
+  top: 170px;
+  margin-bottom: 0;
+}
