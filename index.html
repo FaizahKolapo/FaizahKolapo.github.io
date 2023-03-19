@@ -69,12 +69,12 @@
       id="about"
     >
       <div class="summary-center">
-        <div class="container grid grid--1x2">
+        <div class="container grid grid--1x2 sum-grid">
           <div class="summary grid" data-aos="fade-right">
-            <h2 class="summary-title">
+            <h2 class="summary-title matters">
               Hi, My name is Faizah and your experience matters
             </h2>
-            <div class="line-summary"></div>
+            <div class="line-summary matters-line"></div>
             <img class="diamond" src="images/diamond.svg" alt="" />
           </div>
           <div class="my-summary" data-aos="fade-left">
@@ -98,7 +98,7 @@
           <h2 id="project-title" class="summary-title">My Projects</h2>
           <div id="project-title-line" class="line-summary"></div>
         </div>
-        <div class="container grid grid--1x3 contain-projects">
+        <div class="container grid grid--1x3 contain-projects block-projects">
           <div class="card grid">
             <h3 class="project-head">React Weather App</h3>
             <div class="tech-used">
@@ -175,172 +175,175 @@
       </div>
     </section>
     <section id="exper" class="block container" data-aos="zoom-in">
-      <div class="block__header">
-        <div class="summary grid experience-title" data-aos="fade-right">
-          <h2 class="summary-title">Skills and Experience</h2>
-          <div class="line-summary"></div>
-        </div>
-
-        <div class="skills-experience grid grid--1x2" data-aos="fade-right">
-          <div class="skills">
-            <ul>
-              <li class="skills-list">HTML5</li>
-              <li class="skills-list">CSS3</li>
-              <li class="skills-list">JavaScript</li>
-              <li class="skills-list">React</li>
-              <li class="skills-list">Git</li>
-              <li class="skills-list">Flutter/Dart</li>
-              <li class="skills-list">AGILE/Scrum</li>
-              <li class="skills-list">Python</li>
-              <li class="skills-list">Figma</li>
-              <li class="skills-list">PHP</li>
-              <li class="skills-list">SQL</li>
-            </ul>
+      <div class="my-skills">
+        <div class="block__header align-exp">
+          <div class="summary grid experience-title" data-aos="fade-right">
+            <h2 class="summary-title">Skills and Experience</h2>
+            <div class="line-summary exp-line"></div>
           </div>
-          <div class="experience" data-aos="fade-right">
-            <h2 class="summary-title relevant-exp">Relevant Experience</h2>
-            <div class="exp-names">
-              <button onclick="rightDev()" id="right-dev" class="exp-type">
-                Right Dev Ltd
-              </button>
-              <button
-                onclick="capstone()"
-                id="capstone"
-                class="exp-type background"
-              >
-                Capstone
-              </button>
-              <button
-                onclick="portfolio()"
-                id="portfolio"
-                class="exp-type background"
-              >
-                Portfolio
-              </button>
-              <button
-                onclick="weatherApp()"
-                id="weather-app"
-                class="exp-type background"
-              >
-                Weather App
-              </button>
+
+          <div class="skills-experience grid grid--1x2" data-aos="fade-right">
+            <div class="skills">
+              <ul>
+                <li class="skills-list">HTML5</li>
+                <li class="skills-list">CSS3</li>
+                <li class="skills-list">JavaScript</li>
+                <li class="skills-list">React</li>
+                <li class="skills-list">Git</li>
+                <li class="skills-list">Flutter/Dart</li>
+                <li class="skills-list">AGILE/Scrum</li>
+                <li class="skills-list">Python</li>
+                <li class="skills-list">Figma</li>
+                <li class="skills-list">PHP</li>
+                <li class="skills-list">SQL</li>
+              </ul>
             </div>
-            <div id="toggle1">
-              <div class="title-date">
-                <h3 class="job-title">Junior Front-end Developer Intern</h3>
-                <p class="job-date">05/2021 - 09/2021</p>
-              </div>
-              <p class="location">Lagos, Nigeria</p>
-              <div>
-                <ul class="action-statements">
-                  <li class="statement">
-                    Collaborated with UX designers to implement responsive
-                    design principles, ensuring optimal website performance
-                    across various devices and screen sizes.
-                  </li>
-                  <li class="statement">
-                    Contributed to the development of 2-3 website projects,
-                    delivering them within tight timelines and budget
-                    constraints, while adhering to high standards of quality and
-                    accessibility.
-                  </li>
-                </ul>
-              </div>
-              <div class="more-info">
-                <p class="want-more">Want to see more?</p>
-                <a
-                  href="/files/Faizah Kolapo.pdf"
-                  class="btn btn--accent btn--stretched download-btn"
-                  download="Faizah_Kolapo_Resume"
-                  >Download Resume</a
+            <div class="experience" data-aos="fade-right">
+              <h2 class="summary-title relevant-exp">Relevant Experience</h2>
+              <div class="exp-names">
+                <button onclick="rightDev()" id="right-dev" class="exp-type">
+                  Right Dev Ltd
+                </button>
+                <button
+                  onclick="capstone()"
+                  id="capstone"
+                  class="exp-type background"
                 >
-              </div>
-            </div>
-            <div id="toggle2">
-              <div class="title-date">
-                <h3 class="job-title">Front-end Developer</h3>
-                <p class="job-date">09/2022 - 04/2023</p>
-              </div>
-              <p class="location location-sk">Regina, SK</p>
-              <div>
-                <ul class="action-statements">
-                  <li class="statement">
-                    Created a progressive web app that will give restaurants a
-                    platform to connect with local shelters so excess food does
-                    not go to waste.
-                  </li>
-                  <li class="statement">
-                    Responsible for the front end and developed a UI using
-                    HTML5, CSS Grid, Flexbox, and JavaScript/React.
-                  </li>
-                  <li class="statement">
-                    Worked in an Agile/Scrum environment and managed the project
-                    using Kanban.
-                  </li>
-                </ul>
-              </div>
-              <div class="more-info">
-                <p class="want-more">Want to see more?</p>
-                <a
-                  href="/files/Faizah Kolapo.pdf"
-                  class="btn btn--accent btn--stretched download-btn"
-                  download="Faizah_Kolapo_Resume"
-                  >Download Resume</a
+                  Capstone
+                </button>
+                <button
+                  onclick="portfolio()"
+                  id="portfolio"
+                  class="exp-type background"
                 >
-              </div>
-            </div>
-            <div id="toggle3">
-              <div class="title-date">
-                <h3 class="job-title">Software Developer</h3>
-                <p class="job-date">03/2023 - 03/2023</p>
-              </div>
-              <p class="location location-sk">Regina, SK</p>
-              <div>
-                <ul class="action-statements">
-                  <li class="statement">
-                    Designed and developed a personal portfolio website
-                    utilizing HTML5, CSS3, and JavaScript to effectively
-                    highlight projects and experience in a user-friendly manner.
-                  </li>
-                  <li class="statement">
-                    Employed grid, flexbox, and media queries to construct a
-                    responsive, cross-platform solution.
-                  </li>
-                </ul>
-              </div>
-              <div class="more-info">
-                <p class="want-more">Want to see more?</p>
-                <a
-                  href="/files/Faizah Kolapo.pdf"
-                  class="btn btn--accent btn--stretched download-btn"
-                  download="Faizah_Kolapo_Resume"
-                  >Download Resume</a
+                  Portfolio
+                </button>
+                <button
+                  onclick="weatherApp()"
+                  id="weather-app"
+                  class="exp-type background"
                 >
+                  Weather App
+                </button>
               </div>
-            </div>
-            <div id="toggle4">
-              <div class="title-date">
-                <h3 class="job-title">Software Developer</h3>
-                <p class="job-date">01/2023 - 01/2023</p>
+              <div id="toggle1">
+                <div class="title-date">
+                  <h3 class="job-title">Junior Front-end Developer Intern</h3>
+                  <p class="job-date">05/2021 - 09/2021</p>
+                </div>
+                <p class="location">Lagos, Nigeria</p>
+                <div>
+                  <ul class="action-statements">
+                    <li class="statement">
+                      Collaborated with UX designers to implement responsive
+                      design principles, ensuring optimal website performance
+                      across various devices and screen sizes.
+                    </li>
+                    <li class="statement">
+                      Contributed to the development of 2-3 website projects,
+                      delivering them within tight timelines and budget
+                      constraints, while adhering to high standards of quality
+                      and accessibility.
+                    </li>
+                  </ul>
+                </div>
+                <div class="more-info">
+                  <p class="want-more">Want to see more?</p>
+                  <a
+                    href="/files/Faizah Kolapo.pdf"
+                    class="btn btn--accent btn--stretched download-btn"
+                    download="Faizah_Kolapo_Resume"
+                    >Download Resume</a
+                  >
+                </div>
               </div>
-              <p class="location location-sk">Regina, SK</p>
-              <div>
-                <ul class="action-statements">
-                  <li class="statement">
-                    Developed a responsive web application enabling users to
-                    easily check the temperature of their entered city in real
-                    time using ReactJS and CSS/JSS.
-                  </li>
-                </ul>
+              <div id="toggle2">
+                <div class="title-date">
+                  <h3 class="job-title">Front-end Developer</h3>
+                  <p class="job-date">09/2022 - 04/2023</p>
+                </div>
+                <p class="location location-sk">Regina, SK</p>
+                <div>
+                  <ul class="action-statements">
+                    <li class="statement">
+                      Created a progressive web app that will give restaurants a
+                      platform to connect with local shelters so excess food
+                      does not go to waste.
+                    </li>
+                    <li class="statement">
+                      Responsible for the front end and developed a UI using
+                      HTML5, CSS Grid, Flexbox, and JavaScript/React.
+                    </li>
+                    <li class="statement">
+                      Worked in an Agile/Scrum environment and managed the
+                      project using Kanban.
+                    </li>
+                  </ul>
+                </div>
+                <div class="more-info">
+                  <p class="want-more">Want to see more?</p>
+                  <a
+                    href="/files/Faizah Kolapo.pdf"
+                    class="btn btn--accent btn--stretched download-btn"
+                    download="Faizah_Kolapo_Resume"
+                    >Download Resume</a
+                  >
+                </div>
               </div>
-              <div class="more-info">
-                <p class="want-more">Want to see more?</p>
-                <a
-                  href="/files/Faizah Kolapo.pdf"
-                  class="btn btn--accent btn--stretched download-btn"
-                  download="Faizah_Kolapo_Resume"
-                  >Download Resume</a
-                >
+              <div id="toggle3">
+                <div class="title-date">
+                  <h3 class="job-title">Software Developer</h3>
+                  <p class="job-date">03/2023 - 03/2023</p>
+                </div>
+                <p class="location location-sk">Regina, SK</p>
+                <div>
+                  <ul class="action-statements">
+                    <li class="statement">
+                      Designed and developed a personal portfolio website
+                      utilizing HTML5, CSS3, and JavaScript to effectively
+                      highlight projects and experience in a user-friendly
+                      manner.
+                    </li>
+                    <li class="statement">
+                      Employed grid, flexbox, and media queries to construct a
+                      responsive, cross-platform solution.
+                    </li>
+                  </ul>
+                </div>
+                <div class="more-info">
+                  <p class="want-more">Want to see more?</p>
+                  <a
+                    href="/files/Faizah Kolapo.pdf"
+                    class="btn btn--accent btn--stretched download-btn"
+                    download="Faizah_Kolapo_Resume"
+                    >Download Resume</a
+                  >
+                </div>
+              </div>
+              <div id="toggle4">
+                <div class="title-date">
+                  <h3 class="job-title">Software Developer</h3>
+                  <p class="job-date">01/2023 - 01/2023</p>
+                </div>
+                <p class="location location-sk">Regina, SK</p>
+                <div>
+                  <ul class="action-statements">
+                    <li class="statement">
+                      Developed a responsive web application enabling users to
+                      easily check the temperature of their entered city in real
+                      time using ReactJS and CSS/JSS.
+                    </li>
+                  </ul>
+                </div>
+                <div class="more-info">
+                  <p class="want-more">Want to see more?</p>
+                  <a
+                    href="/files/Faizah Kolapo.pdf"
+                    class="btn btn--accent btn--stretched download-btn"
+                    download="Faizah_Kolapo_Resume"
+                    >Download Resume</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -373,6 +376,7 @@
       class="block container contact-block"
       data-aos="zoom-in"
     >
+    <div class="center-contact">
       <div
         class="skills-experience grid grid--1x2 contact-section"
         data-aos="fade-right"
@@ -409,6 +413,8 @@
           </div>
         </div>
       </div>
+    </div>
+      
     </section>
 
     <script src="js/main.js"></script>

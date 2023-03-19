@@ -410,7 +410,7 @@ a {
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     .summary {
         position: relative;
         left: 50px;
@@ -426,6 +426,9 @@ a {
     .summary-text {
         font-size: 1.8rem;
         width: 40rem;
+    }
+    .sum-grid {
+        display: block;
     }
 }
 
@@ -550,10 +553,13 @@ a {
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .block-projects {
+        display: block;
+    }
     .summary {
         position: relative;
-        left: 50px;
+        left: 72px;
     }
     .line-summary {
         width: 40rem;
@@ -565,7 +571,9 @@ a {
     }
     .summary-text {
         font-size: 1.8rem;
-        width: 40rem;
+        width: 35rem;
+        position: relative;
+        left: 35px;
     }
     .visit-project {
         max-width: 11.7rem;
@@ -587,6 +595,12 @@ a {
     #title-line {
         position: relative;
         left: 3px;
+    }
+    .matters {
+        width: 350px;
+    }
+    .matters-line {
+        width: 360px;
     }
 }
 
@@ -643,7 +657,7 @@ a {
 }*/
 
 .experience {
-    margin-left: -65rem;
+    margin-left: -70rem;
     position: relative;
     top: -35px;
 }
@@ -705,14 +719,14 @@ a {
 .location {
     color: #d13bc7;
     position: relative;
-    left: -279px;
+    left: -305px;
     top: -21px;
     font-size: 1.3rem;
 }
 
 .location-sk {
     position: relative;
-    left: -291px;
+    left: -315px;
 }
 
 .action-statements {
@@ -767,6 +781,7 @@ a {
         margin-left: 0rem;
         margin-right: 0rem;
         margin-top: 5rem;
+        margin-left: 3.3rem;
         position: relative;
     }
     .experience-title {
@@ -774,19 +789,33 @@ a {
         left: -2px;
     }
     .exp-names {
-        gap: 12px;
+        gap: 7px;
     }
     .exp-type {
         padding-left: 2.6px;
         padding-right: 2.6px;
     }
+    .align-exp {
+        position: relative;
+        left: 130px;
+    }
+    .exp-line {
+        width: 35rem;
+        position: relative;
+        left: 50px;
+    }
     .location {
         position: relative;
-        left: -557px;
+        left: -288px;
     }
     .statement {
-        width: 350px;
+        width: 32rem;
         font-size: 1.8rem;
+    }
+    .my-skills {
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
     .more-info {
         position: relative;
@@ -808,13 +837,13 @@ a {
         top: 10px;
     }
     .download-btn {
-        padding: 10px;
-        font-size: 1.5rem;
-        top: -15px;
+        padding: 14px;
+        font-size: 1.2rem;
+        top: -21px;
         font-weight: 500;
     }
     .location-sk {
-        left: -567px;
+        left: -300px;
     }
 }
 
@@ -931,5 +960,10 @@ a {
     }
     .contact-section {
         height: 1000px;
+    }
+    .center-contact {
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 }
