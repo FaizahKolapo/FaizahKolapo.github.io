@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My name is Faizah Kolapo and welcome to my Portfolio"
+    />
+    <meta property="og:title" content="FK..." />
+    <meta property="og:description" content="FK..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="http://practicewebsiteFK.com" />
+    <title>FK - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"
+          ><img class="my-logo" src="images/my_logo.svg" alt=""
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#about">About</a></li>
+          <li class="nav__item"><a href="#contact">Contact</a></li>
+          <li class="nav__item"><a href="#exper">Experience</a></li>
+          <li class="nav__item"><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content" data-aos="zoom-in">
+          <h1 class="block__heading block-heading-grad">
+            Front-end and mobile Developer
+          </h1>
+
+          <a href="#projects" class="btn btn--accent btn--stretched"
+            >Projects</a
+          >
+        </header>
+        <img
+          class="hero__image"
+          src="images/torus.svg"
+          alt=""
+          data-aos="zoom-in-up"
+        />
+      </div>
+    </section>
+    <section
+      class="block container block-domain summary-section"
+      data-aos="fade-up"
+      id="about"
+    >
+      <div class="summary-center">
+        <div class="container grid grid--1x2">
+          <div class="summary grid" data-aos="fade-right">
+            <h2 class="summary-title">
+              Hi, My name is Faizah and your experience matters
+            </h2>
+            <div class="line-summary"></div>
+            <img class="diamond" src="images/diamond.svg" alt="" />
+          </div>
+          <div class="my-summary" data-aos="fade-left">
+            <p class="summary-text">
+              Skilled software developer student with front-end and mobile
+              development expertise, delivering successful projects that exceed
+              expectations. Proficient in creating user-friendly and visually
+              appealing interfaces, with a passion for using emerging
+              technologies for an enhanced user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="block block--dark block--skewed-right hero block-projects"
+      id="projects"
+    >
+      <div class="center-project">
+        <div id="title-line" class="summary grid" data-aos="fade-right">
+            <h2 id="project-title" class="summary-title">
+              My Projects
+            </h2>
+            <div id="project-title-line" class="line-summary"></div>
+          </div>
+        <div class="container grid grid--1x3 contain-projects">
+          <div class="card grid">
+            <h3 class="project-head">React Weather App</h3>
+            <div class="tech-used">
+              <div class="tech-container">
+                <p class="tech-text">React</p>
+              </div>
+              <div class="tech-container">
+                <p class="tech-text">CSS</p>
+              </div>
+            </div>
+            <div class="project-line"></div>
+            <p class="react-app">
+              Developed a responsive web application enabling users to easily
+              check the temperature of their entered city in real time using
+              ReactJS and CSS/JSS.
+            </p>
+            <button class="visit-project">
+              <a
+                class="redirect"
+                href="https://cheerful-sprinkles-3e6369.netlify.app/"
+                >See more</a
+              >
+            </button>
+          </div>
+          <div class="card grid">
+            <h3 class="project-head">BMI Calculator</h3>
+            <div class="tech-used">
+              <div class="tech-container">
+                <p class="tech-text">Flutter</p>
+              </div>
+              <div class="tech-container">
+                <p class="tech-text">Dart</p>
+              </div>
+            </div>
+            <div class="project-line"></div>
+            <p class="react-app">
+              Flutter-based BMI calculator app using Dart, providing instant and
+              accurate BMI calculation by entering height and weight in a
+              user-friendly interface.
+            </p>
+            <button class="visit-project">
+              <a
+                class="redirect"
+                href="https://clinquant-sunflower-f1edb0.netlify.app"
+                >See more</a
+              >
+            </button>
+          </div>
+          <div class="card grid">
+            <h3 class="project-head">Risk Analysis App</h3>
+            <div class="tech-used">
+              <div class="tech-container">
+                <p class="tech-text">Flutter</p>
+              </div>
+              <div class="tech-container">
+                <p class="tech-text">Dart</p>
+              </div>
+            </div>
+            <div class="project-line"></div>
+            <p class="react-app">
+              Flutter/Dart project evaluated project deadline feasibility with a
+              comprehensive system & color-coded statuses based on parameters;
+              validated by unit/widget tests.
+            </p>
+            <button class="visit-project">
+              <a
+                class="redirect"
+                href="https://effervescent-praline-17702a.netlify.app"
+                >See more</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="exper" class="block container" data-aos="zoom-in">
+      <div class="block__header">
+        <div class="summary grid experience-title" data-aos="fade-right">
+          <h2 class="summary-title">Skills and Experience</h2>
+          <div class="line-summary"></div>
+        </div>
+
+        <div class="skills-experience grid grid--1x2" data-aos="fade-right">
+          <div class="skills">
+            <ul>
+              <li class="skills-list">HTML5</li>
+              <li class="skills-list">CSS3</li>
+              <li class="skills-list">JavaScript</li>
+              <li class="skills-list">React</li>
+              <li class="skills-list">Git</li>
+              <li class="skills-list">Flutter/Dart</li>
+              <li class="skills-list">AGILE/Scrum</li>
+              <li class="skills-list">Python</li>
+              <li class="skills-list">Figma</li>
+              <li class="skills-list">PHP</li>
+              <li class="skills-list">SQL</li>
+            </ul>
+          </div>
+          <div class="experience" data-aos="fade-right">
+            <h2 class="summary-title relevant-exp">Relevant Experience</h2>
+            <div class="exp-names">
+              <button onclick="rightDev()" id="right-dev" class="exp-type">
+                Right Dev Ltd
+              </button>
+              <button
+                onclick="capstone()"
+                id="capstone"
+                class="exp-type background"
+              >
+                Capstone
+              </button>
+              <button
+                onclick="portfolio()"
+                id="portfolio"
+                class="exp-type background"
+              >
+                Portfolio
+              </button>
+              <button
+                onclick="weatherApp()"
+                id="weather-app"
+                class="exp-type background"
+              >
+                Weather App
+              </button>
+            </div>
+            <div id="toggle1">
+              <div class="title-date">
+                <h3 class="job-title">Junior Front-end Developer Intern</h3>
+                <p class="job-date">05/2021 - 09/2021</p>
+              </div>
+              <p class="location">Lagos, Nigeria</p>
+              <div>
+                <ul class="action-statements">
+                  <li class="statement">
+                    Collaborated with UX designers to implement responsive
+                    design principles, ensuring optimal website performance
+                    across various devices and screen sizes.
+                  </li>
+                  <li class="statement">
+                    Contributed to the development of 2-3 website projects,
+                    delivering them within tight timelines and budget
+                    constraints, while adhering to high standards of quality and
+                    accessibility.
+                  </li>
+                </ul>
+              </div>
+              <div class="more-info">
+                <p class="want-more">Want to see more?</p>
+                <a
+                  href="/files/Faizah Kolapo.pdf"
+                  class="btn btn--accent btn--stretched download-btn"
+                  download="Faizah_Kolapo_Resume"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+            <div id="toggle2">
+              <div class="title-date">
+                <h3 class="job-title">Front-end Developer</h3>
+                <p class="job-date">09/2022 - 04/2023</p>
+              </div>
+              <p class="location location-sk">Regina, SK</p>
+              <div>
+                <ul class="action-statements">
+                  <li class="statement">
+                    Created a progressive web app that will give restaurants a
+                    platform to connect with local shelters so excess food does
+                    not go to waste.
+                  </li>
+                  <li class="statement">
+                    Responsible for the front end and developed a UI using
+                    HTML5, CSS Grid, Flexbox, and JavaScript/React.
+                  </li>
+                  <li class="statement">
+                    Worked in an Agile/Scrum environment and managed the project
+                    using Kanban.
+                  </li>
+                </ul>
+              </div>
+              <div class="more-info">
+                <p class="want-more">Want to see more?</p>
+                <a
+                  href="/files/Faizah Kolapo.pdf"
+                  class="btn btn--accent btn--stretched download-btn"
+                  download="Faizah_Kolapo_Resume"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+            <div id="toggle3">
+              <div class="title-date">
+                <h3 class="job-title">Software Developer</h3>
+                <p class="job-date">03/2023 - 03/2023</p>
+              </div>
+              <p class="location location-sk">Regina, SK</p>
+              <div>
+                <ul class="action-statements">
+                  <li class="statement">
+                    Designed and developed a personal portfolio website
+                    utilizing HTML5, CSS3, and JavaScript to effectively
+                    highlight projects and experience in a user-friendly manner.
+                  </li>
+                  <li class="statement">
+                    Employed grid, flexbox, and media queries to construct a
+                    responsive, cross-platform solution.
+                  </li>
+                </ul>
+              </div>
+              <div class="more-info">
+                <p class="want-more">Want to see more?</p>
+                <a
+                  href="/files/Faizah Kolapo.pdf"
+                  class="btn btn--accent btn--stretched download-btn"
+                  download="Faizah_Kolapo_Resume"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+            <div id="toggle4">
+              <div class="title-date">
+                <h3 class="job-title">Software Developer</h3>
+                <p class="job-date">01/2023 - 01/2023</p>
+              </div>
+              <p class="location location-sk">Regina, SK</p>
+              <div>
+                <ul class="action-statements">
+                  <li class="statement">
+                    Developed a responsive web application enabling users to
+                    easily check the temperature of their entered city in real
+                    time using ReactJS and CSS/JSS.
+                  </li>
+                </ul>
+              </div>
+              <div class="more-info">
+                <p class="want-more">Want to see more?</p>
+                <a
+                  href="/files/Faizah Kolapo.pdf"
+                  class="btn btn--accent btn--stretched download-btn"
+                  download="Faizah_Kolapo_Resume"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="block block--dark block--skewed-right hero block-projects"
+      id="projects"
+    >
+      <div class="center-project education-center">
+        <div id="education" class="summary grid" data-aos="fade-right">
+          <h2 class="summary-title" id="education-title">My Education</h2>
+          <div id="education-line" class="line-summary"></div>
+          <div>
+            <div>
+              <h3>2018 - 2023 | University of Regina</h3>
+            </div>
+            <div>
+              <p class="degree">
+                Bachelor of Applied Science - Software Systems Engineering
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="block container contact-block" data-aos="zoom-in">
+      <div
+        class="skills-experience grid grid--1x2 contact-section"
+        data-aos="fade-right"
+      >
+        <div class="reach-div">
+          <h3 class="reach">Want to reach me?</h3>
+          <p class="shoot-msg">Shoot me a message on Linkedin</p>
+          <a
+            href="https://linkedin.com/in/faizah-kolapo"
+            class="btn btn--accent btn--stretched contact-btn"
+            >Contact Me</a
+          >
+          <img class="curve" src="images/curve.svg" alt="" />
+        </div>
+        <div class="contact-info">
+          <div class="group">
+            <h3 class="p-e-l">PHONE</h3>
+            <p class="p-e-l-para">+1 (306) 501-7958</p>
+          </div>
+          <div class="group">
+            <h3 class="p-e-l">EMAIL</h3>
+            <p class="p-e-l-para">faizah.kolapo2001@gmail.com</p>
+          </div>
+          <div class="group">
+            <h3 class="p-e-l">LINKS</h3>
+            <div>
+              <a href="https://linkedin.com/in/faizah-kolapo"
+                ><img class="link-icon" src="images/linkedin-in.svg" alt=""
+              /></a>
+              <a href="https://github.com/FaizahKolapo"
+                ><img class="link-icon" src="images/github.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
